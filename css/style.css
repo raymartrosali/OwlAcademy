@@ -1,0 +1,288 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #E1E2F7;
+}
+footer{
+	width: 100%;
+	background-color: #462BE2;
+	color:#fff;
+	font-family: "Century Gothic";
+	font-weight: bolder;
+	padding: 20px 0px;
+}
+
+/*Container Style*/
+	.container{
+	 	max-width: 1280px;
+	 	width: 100%;
+	}
+	.first-container{
+	 	background-image: url('../img/Top-Background.jpg');
+	  	background-repeat: no-repeat;
+	 	background-attachment: scroll;
+	 	background-position: center ; 
+	 	background-size: cover;
+	 	display:block;
+	 	background-color: #fff;
+	}
+	.second-container{
+		margin: 40px 0px;
+	}
+	.third-container{
+		margin: 80px 0px;
+	}
+	.first-container-content{
+		width: 40%;
+		display: block;
+		padding: 50px 20px;
+	}
+	.first-container-image{
+		width: 60%;
+		display: block;
+		text-align: right;
+	}
+	.second-container-image{
+		width: 60%;
+		display: block;
+		text-align: left;
+	}
+	.second-container-content{
+		width: 40%;
+		display: block;
+		padding: 0px 20px;
+	}
+	.third-container-title{
+		width: 100%;
+		text-align: center;
+	}
+	.third-container-input{
+		width: 100%;
+	}
+	.third-container-input-2{
+		width: 50%;
+		text-align: left;
+	}
+	.input-container{
+		margin: 10px 20px;
+	}
+	.flex-center{
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		vertical-align:middle;
+	}
+	.flex-top{
+		display: flex;
+		align-items:flex-start;
+		justify-content: center;
+		vertical-align:middle;
+	}
+	.menu-logo{
+		width: 40%;
+		text-align: left;
+		display: block;
+		color: #0055FF;
+		font-size: 40px;
+	}
+	.menu-content{
+		width: 60%;
+		display: block;
+		text-align: right;
+	}
+	.menu{
+		padding: 20px 40px 10px 20px;
+	}
+	.menu-content ul li{
+		display: inline;
+		padding-left: 20px;
+	}
+	.menu-content ul li a {
+		text-decoration: none;
+		color: #5a5a5a;
+		transition: 0.2s cubic-bezier(0.2, 0, 1, 1);
+	}
+	.menu-content ul li a:hover {
+		color: #462BE2;
+	}
+	.menu-content ul li a:active {
+		text-decoration: none;
+		color: #2d2d2d;
+	}
+.button-container{
+	padding: 20px 10px;
+}
+/*Container Style*/
+/*Image Style*/
+	.img-responsive{
+		width: 100%;
+		max-width: 620px;
+		padding-top: 60px;
+	}
+	.img-responsive-2{
+		width: 100%;
+		max-width: 620px;
+	}
+/*Image Style*/
+/*Font Style*/
+	.heading{
+		font-family: "Baloo";
+	}
+	.heading-text{
+		font-size: 72px;
+		background: -webkit-linear-gradient(to right, #462BE2, #252F5A);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #462BE2, #252F5A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	}
+	.description{
+		font-family: "Century Gothic";
+	    color: #5a5a5a;
+	    padding: 0px 10px;
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+/*Font Style*/
+	.line-design{
+		background-color: #462BE2;
+		height: 10px;
+		width: 200px;
+		border-radius: 40px;
+		margin: 0 0 20px 0;
+	}
+	.line-design-2{
+		background-color: #462BE2;
+		height: 10px;
+		width: 200px;
+		border-radius: 40px;
+		
+	}
+	.input-label{
+		color: #462BE2;
+		font-size: 18px;
+	}
+/*Button Design*/
+	.btn-fill{
+		background-color: #462BE2;
+		color: #fff;
+		padding: 8px 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		border: 2px solid #462BE2;
+		transition: 0.3s linear;
+	}
+	.btn-transparent{
+		background-color: transparent;
+		color: #462BE2;
+		padding: 8px 20px;
+		border-radius: 5px;
+		cursor: pointer;
+		border: 2px solid #462BE2;
+		transition: 0.3s linear;
+	}
+	.btn-fill:hover{
+		background-color: transparent;
+		color: #462BE2;
+	}
+	.btn-transparent:hover{
+		background-color: #462BE2;
+		color: #fff;
+	}
+/*Button Design*/
+/*Wave Design*/
+	.wave-container{
+
+	    color: #E1E2F7;
+	    background-color: #fff;
+	    width: 100%;
+
+	}
+	svg {
+	    color: #E1E2F7;
+	    bottom: 0;
+	    display: block;
+	}
+	.wavePath-22lfEN {
+	    -webkit-animation: waveDividerAnimation-2kPl3C 20s linear infinite alternate;
+	    -moz-animation: waveDividerAnimation-2kPl3C 20s linear infinite alternate;
+	    animation: waveDividerAnimation-2kPl3C 10s linear infinite alternate;
+	}
+
+	@-webkit-keyframes waveDividerAnimation-2kPl3C {
+	    0% {
+	        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z")
+	    }
+
+	    50% {
+	        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z")
+	    }
+
+	    to {
+	        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z")
+	    }
+	}
+	@-moz-keyframes waveDividerAnimation-2kPl3C {
+	    0% {
+	        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z")
+	    }
+
+	    50% {
+	        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z")
+	    }
+
+	    to {
+	        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z")
+	    }
+	}
+
+	@keyframes waveDividerAnimation-2kPl3C {
+	    0% {
+	        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z")
+	    }
+
+	    50% {
+	        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z")
+	    }
+
+	    to {
+	        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z")
+	    }
+	}
+/*Wave Design*/
+/*Input type Design*/
+	.input-design{
+		padding: 15px;
+		font-size: 16px;
+		font-family: "Century Gothic";
+		border-radius: 10px;
+		border:none;
+		width: calc(100% - 30px);
+		color: #2d2d2d;
+		font-weight: bold!important;
+		letter-spacing: 1px;
+		border: 2px solid transparent;
+	}
+	textarea:focus, input:focus{
+		outline:none;
+		border: 2px solid #462BE2;
+		transition: 0.5s;
+	}
+/*Input type Design*/
+/*Modal Design*/
+	.modal-overlay{
+		display: none;
+		position: fixed;
+		z-index: 10;
+		min-width: 100vw;
+		min-height: 100vh;
+		background: -webkit-linear-gradient(to right, rgba(70, 43, 226, 0.8), rgba(37, 47, 90, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, rgba(70, 43, 226, 0.8), rgba(37, 47, 90, 0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		left: 0;
+		top: 0;
+	}
+	.modal-setter{
+		min-width: 100vw;
+		min-height: 100vh;
+	}
+/*Modal Design*/
